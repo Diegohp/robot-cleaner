@@ -9,6 +9,16 @@ major actors for this exercise. The rest of the Model classes are
 mainly Value Objects that allow the Aggregated Root classes to set
 their properties, and define and check specific constrains.
 
+- There is also a Command Handler in the Application Layer, that
+orchestrates the main behavior of the clean execution, which contains
+also a CommandDTO to be executed and a list of Robot DTOs related to
+capabilities and instructions of each robot, getting primitive values
+for each parameter. This Command Handler gets a single CommandDTO
+with all the information read from input file for the Grid and all
+the robots, and for each RobotDTO, creates all the Domain classes
+and executes the instructions for each robot, as well as the output
+which each robot returns.
+
 -------PROJECT STRUCTURE--------
 
 robot-cleaner/
@@ -18,7 +28,16 @@ robot-cleaner/
 │   ├── main/
 │   │   ├── java/
 │   │   │   ├── application/
+│   │   │   │   └── CleanCommandHandler.java
 │   │   │   ├── domain/
+│   │   │   │   ├── model/
+│   │   │   │   │   ├── Grid.java
+│   │   │   │   │   ├── GridLength.java
+│   │   │   │   │   ├── GridWidth.java
+│   │   │   │   │   ├── Instructions.java
+│   │   │   │   │   ├── Orientation.java
+│   │   │   │   │   ├── Position.java
+│   │   │   │   │   └── Robot.java
 │   │   │   ├── infrastructure/
 │   │   │   └── Main.java
 │   │   └── resources/
