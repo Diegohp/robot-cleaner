@@ -3,6 +3,12 @@ README FILE FOR ROBOT-CLEANER PROJECT
 
 DOMAIN MODEL CHOSEN
 
+- The project has been structured around the Model Aggregated Root
+classes of Grid and Robot, as they have been identified as the
+major actors for this exercise. The rest of the Model classes are
+mainly Value Objects that allow the Aggregated Root classes to set
+their properties, and define and check specific constrains.
+
 -------PROJECT STRUCTURE--------
 
 robot-cleaner/
