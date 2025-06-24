@@ -1,7 +1,7 @@
+package com.robotcleaner;
 
-
-import application.CleanCommandHandler;
-import infrastructure.RobotController;
+import com.robotcleaner.application.CleanCommandHandler;
+import com.robotcleaner.infrastructure.RobotController;
 
 import java.util.List;
 

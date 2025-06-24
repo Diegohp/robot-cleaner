@@ -1,6 +1,6 @@
-package infrastructure;
+package com.robotcleaner.infrastructure;
 
-import application.CleanCommandHandler;
+import com.robotcleaner.application.CleanCommandHandler;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
