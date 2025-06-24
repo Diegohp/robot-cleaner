@@ -1,8 +1,10 @@
 package test;
 
-import application.CleanCommandHandler;
-import infrastructure.RobotController;
-import mockit.*;
+import com.robotcleaner.application.CleanCommandHandler;
+import com.robotcleaner.infrastructure.RobotController;
+
+import mockit.Expectations;
+import mockit.Mocked;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

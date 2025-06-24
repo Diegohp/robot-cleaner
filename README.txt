@@ -57,8 +57,11 @@ robot-cleaner/
 │       ├── java/
 │       │   └── test/
 │       │       ├── CleanCommandHandlerTest.java
+│       │       ├── IntegrationTest.java
 │       │       └── RobotControllerTest.java
 │       └── resources/
+│           ├── instructions_example.txt
+│           └── wrong_instructions_example.txt
 
 
 GENERAL ASSUMPTIONS

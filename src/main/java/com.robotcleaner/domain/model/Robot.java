@@ -1,4 +1,4 @@
-package domain.model;
+package com.robotcleaner.domain.model;
 
 import java.util.List;
 

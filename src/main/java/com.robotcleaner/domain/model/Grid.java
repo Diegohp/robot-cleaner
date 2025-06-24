@@ -1,5 +1,4 @@
-/*... Grid.java ...*/
-package domain.model;
+package com.robotcleaner.domain.model;
 
 public class Grid {
     private final GridWidth gridWidth;
