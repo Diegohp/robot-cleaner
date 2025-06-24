@@ -1,13 +1,13 @@
-package application;
+package com.robotcleaner.application;
 
 
-import domain.model.Grid;
-import domain.model.GridWidth;
-import domain.model.GridLength;
-import domain.model.Instructions;
-import domain.model.Orientation;
-import domain.model.Position;
-import domain.model.Robot;
+import com.robotcleaner.domain.model.Grid;
+import com.robotcleaner.domain.model.GridWidth;
+import com.robotcleaner.domain.model.GridLength;
+import com.robotcleaner.domain.model.Instructions;
+import com.robotcleaner.domain.model.Orientation;
+import com.robotcleaner.domain.model.Position;
+import com.robotcleaner.domain.model.Robot;
 
 import java.util.ArrayList;
 import java.util.List;

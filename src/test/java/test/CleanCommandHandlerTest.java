@@ -1,6 +1,6 @@
 package test;
 
-import application.CleanCommandHandler;
+import com.robotcleaner.application.CleanCommandHandler;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
