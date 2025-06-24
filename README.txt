@@ -93,6 +93,8 @@ has been excluded from the implementation.
 
 BUILD AND RUN
 
+Java SDK used: openjdk-24
+
 Compile the project:
 mvn clean install
 
