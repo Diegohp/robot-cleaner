@@ -60,8 +60,8 @@ robot-cleaner/
 │       │       ├── IntegrationTest.java
 │       │       └── RobotControllerTest.java
 │       └── resources/
-│       │       ├── instructions_example.java
-│               └── wrong_instructions_example.java
+│       │       ├── instructions_example.txt
+│               └── wrong_instructions_example.txt
 
 
 GENERAL ASSUMPTIONS
